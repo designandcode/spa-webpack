@@ -1,6 +1,6 @@
 # Spa Webpack
 
-A full featured starter for modern front-end single page applications. Uses Webpack 4 to create optimized builds, linters to check for code style and errors, w3c and a11y validation, and finally easily deployed using Firebase.
+A full featured starter for modern front-end single page applications. Uses ***Webpack 4*** to create optimized builds, ***linters*** to check for code style and errors, ***W3C HTML*** and ***A11Y*** validation, and finally easily deployed using ***Firebase***.
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 Node and NPM versions used for this project
 
 ```
-node >= v10.0.0
+node >= 10.0.0
 npm >= 5.6.0
 ```
 
@@ -51,7 +51,7 @@ To get the project name, visit https://console.firebase.google.com and create a 
 ```npm run test-prod```
 - runs A11Y and HTML Validations on production build
 
-```nmp run build```
+```npm run build```
 - runs dev tests, creates production build to dist/, and runs production tests
 
 ```npm run deploy```

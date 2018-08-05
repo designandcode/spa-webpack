@@ -19,4 +19,5 @@ let htmlValidate = function (html) {
 	});
 }
 
+
 module.exports = htmlValidate;

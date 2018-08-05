@@ -39,19 +39,3 @@ prompt.get({
 		console.log('Firebase deploy cancelled');
 	}
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
