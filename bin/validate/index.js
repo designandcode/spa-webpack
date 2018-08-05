@@ -17,11 +17,11 @@ fs.readFile( fileLocation, 'utf8', (err, html) => {
     throw err;
   }
 
-	Promise.all([ 
-		htmlValidate(html), 
-		a11yValidate(fileLocation)
-	])
-		.then( values => { console.log(values) })
-		.catch( error => { /* exit the process */ })
+  Promise.all([ 
+    htmlValidate(html), 
+    a11yValidate(fileLocation)
+  ])
+    .then( values => { console.log(values) })
+    .catch( error => { /* exit the process */ })
 });
 

@@ -1,6 +1,6 @@
 {
-	"rules": {
-		"color-named": "never",
-	}
+  "rules": {
+    "color-named": "never",
+  }
 }
 
