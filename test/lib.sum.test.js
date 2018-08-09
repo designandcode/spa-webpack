@@ -1,7 +1,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const sum = require('../src/lib/sum/');
+import sum from '../src/lib/sum/';
 
 describe("lib/sum", () => {
 
