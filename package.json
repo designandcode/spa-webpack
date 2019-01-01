@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npm-run-all --parallel dev-server test-dev-watch",
     "dev-server": "webpack-dev-server -d --hot --inline",
-    "build": "npm run test-dev && rimraf ./dist && NODE_ENV=production webpack -p && npm run test-prod",
+    "build": "npm run test-dev && rimraf ./dist && webpack -p && npm run test-prod",
     "test-dev": "mocha --require babel-polyfill --require babel-register",
     "test-dev-watch": "mocha --require babel-polyfill --require babel-register --watch",
     "test-prod": "node bin/validate/index.js",
@@ -28,7 +28,7 @@
     "eslint": "^5.2.0",
     "eslint-loader": "^2.1.0",
     "file-loader": "^1.1.11",
-    "firebase-tools": "^4.0.3",
+    "firebase-tools": "^4.2.1",
     "html-validator": "^3.0.5",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.1",
